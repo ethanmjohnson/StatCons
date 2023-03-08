@@ -1,0 +1,9 @@
+---
+title: README
+author: Ethan Johnson
+date: today
+format:
+    html:
+        self-contained: true
+        df-print: tibble
+        
