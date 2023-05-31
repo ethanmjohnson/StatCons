@@ -1,0 +1,89 @@
+﻿concentration,gene_expression,cell_lines,treatment,GL
+0,5.51,wild-type,placebo,CsE
+1,6.41,wild-type,placebo,CsE
+2,5.71,wild-type,placebo,CsE
+3,7.94,wild-type,placebo,CsE
+4,6.87,wild-type,placebo,CsE
+5,7.29,wild-type,placebo,CsE
+6,10.04,wild-type,placebo,CsE
+7,8.85,wild-type,placebo,CsE
+8,8.91,wild-type,placebo,CsE
+9,9.68,wild-type,placebo,CsE
+10,11.43,wild-type,placebo,CsE
+0,4.47,wild-type,placebo,bNo
+1,5.12,wild-type,placebo,bNo
+2,4.79,wild-type,placebo,bNo
+3,5.86,wild-type,placebo,bNo
+4,4.3,wild-type,placebo,bNo
+5,5.82,wild-type,placebo,bNo
+6,9.94,wild-type,placebo,bNo
+7,9.02,wild-type,placebo,bNo
+8,8.23,wild-type,placebo,bNo
+9,8.37,wild-type,placebo,bNo
+10,10.47,wild-type,placebo,bNo
+0,9.1,wild-type,activating factor 42,JZC
+1,11.88,wild-type,activating factor 42,JZC
+2,15.21,wild-type,activating factor 42,JZC
+3,18.41,wild-type,activating factor 42,JZC
+4,23.81,wild-type,activating factor 42,JZC
+5,25.1,wild-type,activating factor 42,JZC
+6,28.75,wild-type,activating factor 42,JZC
+7,30.99,wild-type,activating factor 42,JZC
+8,36.33,wild-type,activating factor 42,JZC
+9,36,wild-type,activating factor 42,JZC
+10,41.7,wild-type,activating factor 42,JZC
+0,9.69,wild-type,activating factor 42,fUg
+1,12.82,wild-type,activating factor 42,fUg
+2,14.78,wild-type,activating factor 42,fUg
+3,18.27,wild-type,activating factor 42,fUg
+4,21.24,wild-type,activating factor 42,fUg
+5,-99,wild-type,activating factor 42,fUg
+6,24.25,wild-type,activating factor 42,fUg
+7,29.11,wild-type,activating factor 42,fUg
+8,32.79,wild-type,activating factor 42,fUg
+9,32.69,wild-type,activating factor 42,fUg
+10,36.38,wild-type,activating factor 42,fUg
+0,5.35,cell-type 101,placebo,jEK
+1,4.01,cell-type 101,placebo,jEK
+2,8.53,cell-type 101,placebo,jEK
+3,9.9,cell-type 101,placebo,jEK
+4,11.66,cell-type 101,placebo,jEK
+5,10.7,cell-type 101,placebo,jEK
+6,13.65,cell-type 101,placebo,jEK
+7,15.98,cell-type 101,placebo,jEK
+8,16.74,cell-type 101,placebo,jEK
+9,18.44,cell-type 101,placebo,jEK
+10,20.21,cell-type 101,placebo,jEK
+0,5.81,cell-type 101,placebo,Hoe
+1,6.58,cell-type 101,placebo,Hoe
+2,9.28,cell-type 101,placebo,Hoe
+3,10.71,cell-type 101,placebo,Hoe
+4,13.67,cell-type 101,placebo,Hoe
+5,13.48,cell-type 101,placebo,Hoe
+6,15.2,cell-type 101,placebo,Hoe
+7,17.65,cell-type 101,placebo,Hoe
+8,19.01,cell-type 101,placebo,Hoe
+9,19.93,cell-type 101,placebo,Hoe
+10,24.47,cell-type 101,placebo,Hoe
+0,8.97,cell-type 101,activating factor 42,Rza
+1,11.62,cell-type 101,activating factor 42,Rza
+2,14.87,cell-type 101,activating factor 42,Rza
+3,15.47,cell-type 101,activating factor 42,Rza
+4,17.29,cell-type 101,activating factor 42,Rza
+5,20.78,cell-type 101,activating factor 42,Rza
+6,22.3,cell-type 101,activating factor 42,Rza
+7,24.37,cell-type 101,activating factor 42,Rza
+8,27.44,cell-type 101,activating factor 42,Rza
+9,30.74,cell-type 101,activating factor 42,Rza
+10,33.96,cell-type 101,activating factor 42,Rza
+0,11.49,cell-type 101,activating factor 42,xpo
+1,15.01,cell-type 101,activating factor 42,xpo
+2,17.88,cell-type 101,activating factor 42,xpo
+3,20.17,cell-type 101,activating factor 42,xpo
+4,26.22,cell-type 101,activating factor 42,xpo
+5,31.77,cell-type 101,activating factor 42,xpo
+6,34.43,cell-type 101,activating factor 42,xpo
+7,36.66,cell-type 101,activating factor 42,xpo
+8,39.26,cell-type 101,activating factor 42,xpo
+9,44.18,cell-type 101,activating factor 42,xpo
+10,48.96,cell-type 101,activating factor 42,xpo
