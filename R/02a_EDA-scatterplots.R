@@ -1,5 +1,7 @@
 pacman::p_load(tidyverse, harrypotter, here)
 
+# wild-type scatterplot
+
 cellData %>%
   filter(cell_lines == "wild-type") %>%
   ggplot(aes(concentration, gene_expression, color = treatment)) +
@@ -14,6 +16,8 @@ cellData %>%
   harrypotter::scale_colour_hp_d("Ravenclaw")
   ggsave(here::here("figs", "2023-03-22_wild-type-scatter.pdf"))
 
+  # cell-type scatter plot
+  
 cellData %>%
   filter(cell_lines == "cell-type 101") %>%
   ggplot(aes(concentration, gene_expression, color = treatment)) +

@@ -1,12 +1,13 @@
 pacman::p_load(lme4, lmerTest, gt, tidyverse)
 
+# fitting full model 
 
 M1.Full <- lmer(data = cellData, gene_expression ~ treatment*concentration*cell_lines + (1|GL))
 
-# random effects
+# checking random effects
 randomEffects <- ranova(M1.Full)
 
-# fixed effects
+# checking fixed effects
 # 3-way interactions
 M1.A <- update(M1.Full, . ~ . -concentration:cell_lines:treatment)
 
@@ -35,6 +36,8 @@ df <- rbind(df, anova(M1.Full, M3.A)["AIC"][1,1])
 df <- rbind(df, anova(M1.Full, M3.B)["AIC"][1,1])
 df <- rbind(df, anova(M1.Full, M3.C)["AIC"][1,1])
 
+# table of random intercept
+
 rownames(randomEffects) <- c("Random Intercept", "No Random Intercept")
 
 randomEffects %>% gt(rownames_to_stub = TRUE) %>%
@@ -48,6 +51,8 @@ randomEffects %>% gt(rownames_to_stub = TRUE) %>%
   ) %>%
   fmt_number(decimals = 2) %>%
   gtsave(here::here("tabs", "2023-05-23_ranova-table.docx"))
+
+# table for anova
 
 rownames(df) <- c("Full model", "-concentration:cell_lines:treatment", "-concentration:cell_lines",
                   "-treatment:cell_lines", "-concentration:treatment", "-treatment",

@@ -1,5 +1,7 @@
 pacman::p_load(tidyverse, ggrepel, patchwork, showtext)
 
+# add times new roman font to code
+
 font_add(
   family = "times",
   regular = here::here(
@@ -12,7 +14,8 @@ font_add(
 
 col_path <- c("#81A7CD", "#D2BF9D")
 
-# plot
+# left and right hand side plots 
+
 showtext_auto()
 plot1 <- cellData %>%
   filter(cell_lines == "cell-type 101") %>%
@@ -77,6 +80,7 @@ plot2<-cellData %>%
         legend.spacing.x = unit(0.25, "cm"))
 
 
+# combining two plots
 
 patchwork <- plot2 + plot1 + plot_annotation(tag_levels = 'A') +
   plot_layout(guides = "collect") &

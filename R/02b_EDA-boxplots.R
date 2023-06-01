@@ -1,5 +1,7 @@
 pacman::p_load(tidyverse, harrypotter, here)
 
+# wild-type boxplot
+
 cellData %>%
   filter(cell_lines == "wild-type") %>%
   ggplot(aes(treatment, gene_expression, fill = treatment)) +
@@ -15,6 +17,8 @@ cellData %>%
   theme(plot.title = element_text(hjust = 0.5))
   ggsave(here::here("figs", "2023-03-22_wild-type-boxplot.pdf"))
 
+  # cell-type 101 boxplot
+  
 cellData %>%
   filter(cell_lines == "cell-type 101") %>%
   ggplot(aes(treatment, gene_expression, fill = treatment)) +

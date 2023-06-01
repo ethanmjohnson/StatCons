@@ -1,5 +1,7 @@
 pacman::p_load(tidyverse, gt)
 
+# generating summary tables for each cell line and treatment
+
 table1 <- cellData %>%
   filter(cell_lines == "wild-type") %>%
   filter(treatment == "activating factor 42") %>%
@@ -57,6 +59,7 @@ table4 <- cellData %>%
   gt() %>%
   fmt_number(decimals = 2)
 
+# combining tables based on cell line
 
 table1 <- table1$`_data`
 table2 <- table2$`_data`
