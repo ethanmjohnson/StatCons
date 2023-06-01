@@ -3,9 +3,6 @@ title: ReadMe
 author: Ethan Johnson
 date: today
 format: gfm
-  html: 
-    self-contained: true
-    df-print: tibble
 editor_options: 
   chunk_output_type: console
 execute: 
@@ -13,6 +10,8 @@ execute:
   message: false
   echo: false
 ---
+
+We were given a dataset from an experiment that looks at the effect of a new treatment on gene expression. The treatment was compared to a saline sample (placebo). There were also two cell lines that were looked at. The experiment was interested in finding the effect of treatment on the effect of growth factor on gene expression. 
 
 # Data Cleaning
 
@@ -36,7 +35,7 @@ We were provided a figure by the collaborator who wanted the font changed to Tim
 
 # Sample Size Calculations
 
-We were provided values by the collaborator to calculate sample size required to reach a certain power and significance level. These values are found in the `raw-data` folder labelled as `2023-05-01_sample-size-requirements.txt`. To calculate the required sample size, the `pwr` package was used. The code to calculate the sample size is found in the `R` folder labelled as `04_sample-size-calcs.R`. This gave the required sample size of 154.
+We were provided values by the collaborator to calculate sample size required to reach a certain power and significance level. These values are found in the `raw-data` folder labelled as `2023-05-01_sample-size-requirements.txt`. To calculate the required sample size, the `pwr.f2.test` function in the `pwr` package was used. This function requires an $f^2$ value. This can be calculated using the formula $f^2=\frac{r^2}}{1-r^2}$. The code to calculate the sample size is found in the `R` folder labelled as `04_sample-size-calcs.R`. This gave the required sample size of 154.
 
 # Mixed Effects Model
 
