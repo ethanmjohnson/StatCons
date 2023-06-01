@@ -75,7 +75,7 @@ are found in the `raw-data` folder labelled as
 `2023-05-01_sample-size-requirements.txt`. To calculate the required
 sample size, the `pwr.f2.test` function in the `pwr` package was used.
 This function requires an $f^2$ value. This can be calculated using the
-formula $f^2=\frac{r^2}}{1-r^2}$. The code to calculate the sample size
+formula $f^2=\frac{r^2}{1-r^2}$. The code to calculate the sample size
 is found in the `R` folder labelled as `04_sample-size-calcs.R`. This
 gave the required sample size of 154.
 
