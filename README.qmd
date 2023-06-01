@@ -2,7 +2,7 @@
 title: ReadMe
 author: Ethan Johnson
 date: today
-format: 
+format: gfm
   html: 
     self-contained: true
     df-print: tibble
