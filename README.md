@@ -60,7 +60,7 @@ found in the `deliverables` folder and is labelled
 # Figure Generation
 
 We were provided a figure by the collaborator who wanted the font
-changed to Times New Roman. The original figure is found in the `figs`
+changed to Times New Roman and the figure converted to a .tiff with a resolution of 500. The original figure is found in the `figs`
 folder and is labelled as `2023-04-03_raw-figure-font-update.pdf`. The
 figure with the updated font is also in the `figs` folder and is
 labelled `2023-04-06_figure-updated-font.tiff`. The code to produce this
